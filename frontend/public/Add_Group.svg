@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.55 16.31">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: .75px;
+      }
+    </style>
+  </defs>
+  <g id="Infobox_Redesign" data-name="Infobox Redesign">
+    <g>
+      <g>
+        <line class="cls-1" x1="9.86" y1="14.15" x2="9.86" y2="5.03"/>
+        <line class="cls-1" x1="5.18" y1="9.59" x2="14.29" y2="9.59"/>
+      </g>
+      <polyline class="cls-1" points="3.35 13.05 .38 13.05 .38 .38 13.05 .38 13.05 3.25"/>
+      <rect class="cls-1" x="3.49" y="3.25" width="12.68" height="12.68"/>
+    </g>
+  </g>
+</svg>

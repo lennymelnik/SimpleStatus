@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.43 46.87">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7f87c2;
+      }
+
+      .cls-2 {
+        stroke-width: 1.07px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke: #7f87c2;
+      }
+
+      .cls-3 {
+        stroke-width: .89px;
+      }
+    </style>
+  </defs>
+  <g id="Infobox_Redesign" data-name="Infobox Redesign">
+    <g>
+      <rect class="cls-2" x=".54" y="2.26" width="36.82" height="44.08"/>
+      <rect class="cls-3" x="4.79" y="2.26" width="28.32" height="39.55"/>
+      <rect class="cls-1" x="11.87" width="14.16" height="4.52"/>
+      <line class="cls-2" x1="9.03" y1="13.21" x2="28.86" y2="13.21"/>
+      <line class="cls-2" x1="9.03" y1="19.84" x2="28.86" y2="19.84"/>
+      <line class="cls-2" x1="9.03" y1="26.47" x2="28.86" y2="26.47"/>
+      <line class="cls-2" x1="9.03" y1="33.1" x2="28.86" y2="33.1"/>
+      <g>
+        <circle class="cls-2" cx="26.58" cy="26.13" r="9.13"/>
+        <line class="cls-2" x1="43.02" y1="46.44" x2="32.02" y2="33.46"/>
+      </g>
+    </g>
+  </g>
+</svg>

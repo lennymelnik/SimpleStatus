@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.56 15.56">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: .75px;
+      }
+    </style>
+  </defs>
+  <g id="Infobox_Redesign" data-name="Infobox Redesign">
+    <g>
+      <line class="cls-1" x1="7.99" y1="15.56" x2="7.99"/>
+      <line class="cls-1" y1="7.78" x2="15.56" y2="7.78"/>
+    </g>
+  </g>
+</svg>

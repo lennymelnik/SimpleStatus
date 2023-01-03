@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63.39 82.59">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="Infobox_Redesign" data-name="Infobox Redesign">
+    <g>
+      <g>
+        <path class="cls-1" d="M51.44,27.63c0-11.1-9-20.09-20.09-20.09S11.25,16.53,11.25,27.63"/>
+        <path class="cls-1" d="M51.44,27.63c0,20.09,0,31.42,10.46,32.07H1.5c9.75,0,9.75-11.98,9.75-32.07"/>
+      </g>
+      <circle class="cls-1" cx="31.7" cy="73.05" r="8.05"/>
+    </g>
+    <path class="cls-1" d="M13.93,1.33C1.94,7.54,1.12,27.63,1.6,39.84"/>
+    <path class="cls-1" d="M49.46,1.33c11.99,6.21,12.82,26.3,12.33,38.51"/>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13.08 16.31">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: .75px;
+      }
+    </style>
+  </defs>
+  <g id="Infobox_Redesign" data-name="Infobox Redesign">
+    <g>
+      <polygon class="cls-1" points="10.99 15.93 2.09 15.93 .43 3.06 12.65 3.06 10.99 15.93"/>
+      <line class="cls-1" x1="4.88" y1="13.25" x2="4.88" y2="5.74"/>
+      <line class="cls-1" x1="8.2" y1="13.25" x2="8.2" y2="5.74"/>
+      <line class="cls-1" x1=".43" y1=".38" x2="12.65" y2=".38"/>
+    </g>
+  </g>
+</svg>
