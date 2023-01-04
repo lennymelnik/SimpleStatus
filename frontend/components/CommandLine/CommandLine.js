@@ -182,9 +182,14 @@ function Token(props){
 }
 function CreateSystem(props){
     const [created, setCreated] = useState(false)
+    const [first, setFirst] = useState(true)
     
     useEffect(()=>{
-        handleCreateSystem()
+        if(first){
+            handleCreateSystem()
+            setFirst(false)
+
+        }
     }, [])
  
     async function handleCreateSystem(){
@@ -193,7 +198,6 @@ function CreateSystem(props){
             console.log(response)
             if(response.status == 201){
                 setCreated(true)
-                props.finished()
 
     
                 
@@ -246,7 +250,6 @@ function Systems(props){
                 </thead>
                 <tbody>
                 {systems.map((system)=><SystemItem {...props} {...system} />)}
-
                 </tbody>
 
             </table>
@@ -260,14 +263,11 @@ function Systems(props){
 function SystemItem(props){
     return(
         <>
-        <tr className='text-white text-xl'>
+        <tr className='text-white text-xl hover:bg-sky-700'>
             <th className='border border-dashed p-2'>{props.name}</th>
             <th className='border border-dashed p-2'>{props.lastUpdate?props.lastUpdate.status:'N/A'}</th>
             <th className='border border-dashed p-2'>{props.lastUpdate?props.lastUpdate.progress:'N/A'}</th>
             <th className='border border-dashed p-2'>{props.lastUpdate?props.lastUpdate.info:'N/A'}</th>
-
-
-
         </tr>
         </>
 
