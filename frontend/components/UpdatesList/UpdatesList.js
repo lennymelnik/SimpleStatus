@@ -3,7 +3,7 @@ import UpdatesItem from "./UpdatesItem/UpdatesItem"
 export default function UpdatesList(props){
     return(
         <>
-        <table className='table-fixed w-fit select-none'>
+        <table className='table-auto w-full select-none'>
                 <thead>
                     <tr className='text-white text-xl'>
                         <th>Info</th>
