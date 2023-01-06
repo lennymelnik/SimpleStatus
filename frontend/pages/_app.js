@@ -5,6 +5,7 @@ import Head from "next/head";
 import Alert from '../components/Alert/Alert';
 import uniqid from 'uniqid'
 import { useRouter } from 'next/router'
+import Navbar from '../components/Navbar/Navbar';
 function MyApp({ Component, pageProps }) {
     const { token, setToken } = useToken();
     const router = useRouter()
@@ -47,17 +48,22 @@ function MyApp({ Component, pageProps }) {
         <title>SimpleStatus</title>
         <link rel="icon" type="image/svg" href="/favicon.svg" />
       </Head>
-      <div className='p-4 bg-gray-800 font-mono container2 min-h-screen'>
+      <div className='min-h-screen h-screen'>
+
+        <Navbar token={token} logout={logout}/>
+        <div className='p-4 bg-gray-800 font-mono container2 h-full'>
 
 
-        {alerts.map((alert)=><Alert {...alert} key={alert.id} removeAlert={removeAlert}/>)}
-              
-        <Component {...pageProps} serverAddress={serverAddress} token={token} setToken={setToken}  logout={logout} addAlert={addAlert}/>
+          {alerts.map((alert)=><Alert {...alert} key={alert.id} removeAlert={removeAlert}/>)}
+                
+          <Component {...pageProps} serverAddress={serverAddress} token={token} setToken={setToken}  logout={logout} addAlert={addAlert}/>
+      
+
+
     
-
-
-   
+        </div>
       </div>
+
       </>)
 
   }

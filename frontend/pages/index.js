@@ -4,7 +4,7 @@ import CommandLine from '../components/CommandLine/CommandLine'
 export default function Landing(props){
     return(
         <>
-            <CommandLine {...props} />            
+            <p className='text-white text-4xl'>Landing page</p>          
         </>
     )
 }

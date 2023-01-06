@@ -4,9 +4,13 @@ export default function Main(props){
 
    
     <div className="h-full font-Monserrat container mx-auto">
-        <div className='flex flex-col mt-52'>
+        <div className='flex flex-col mt-48'>
 
-        <img src='/Login.svg' className='h-48'/>
+        <div className="flex justify-center">
+            <img src='/SimpleStatus.png' className='h-48 w-48'/>
+
+
+        </div>
 
         <form onSubmit={props.handleSubmit} className='container mx-auto w-1/2 h-full '>
 
@@ -27,18 +31,10 @@ export default function Main(props){
                 onChange={(e)=>props.setPassword(e.target.value)}/>
 
 
-                {props.buttonText === 'Register' ?     
-                <input 
-                className='bg-slate-200 rounded-xl p-2'
-                type='text' 
-                required 
-                placeholder="Invite Code"
-                onChange={(e)=>props.setInviteCode(e.target.value)}/>
-                :
-                null}
+            
                 <button 
                 type='submit'
-                className='bg-[#162040] rounded-xl p-3 text-white'>
+                className='bg-sky-800 rounded-xl p-3 text-white'>
                     {props.buttonText}
                 </button>
             </div>
