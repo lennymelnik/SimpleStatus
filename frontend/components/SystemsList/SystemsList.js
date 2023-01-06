@@ -15,13 +15,14 @@ export default function SystemsList(props){
     }
     return(
         <>
-        <table className='table-fixed w-fit'>
+        <table className='table-auto w-full'>
                 <thead>
                     <tr className='text-white text-xl'>
                         <th>Name</th>
                         <th>Last Status</th>
                         <th>Progress</th>
                         <th>Info</th>
+                        <th>Time</th>
                     </tr>
                 </thead>
                 <tbody>

@@ -17,6 +17,9 @@ const UpdateSchema = new mongoose.Schema({
     },
     info : {
         type : String
+    },
+    timestamp : {
+        type : Number
     }
   
   

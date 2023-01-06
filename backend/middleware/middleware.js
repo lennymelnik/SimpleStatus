@@ -108,7 +108,7 @@ export function isUserAdminSystem (req, res, next) {
         resolve();
     }).then(async function(){
         // check if user is admin of the view
-        req.system = await System.findOne({_id : id, user : req.user._id}).populate('updates')
+        req.system = await System.findOne({_id : id, user : req.user._id}).populate('updates').populate('lastUpdate')
 
         //check if user is logged in
         if(req.system == null){

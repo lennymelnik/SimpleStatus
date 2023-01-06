@@ -108,8 +108,8 @@ route.post(
             resolve();
         }).then(async function (){
 
-            const other = await System.findOne({name : name, user : req.user._id})
-            if(other){
+            const other = await System.find({name : name, user : req.user._id})
+            if(other.length > 0){
                 return Promise.reject({
                     status:StatusCodes.CONFLICT,
                     reason:"You already have system with the same name"
@@ -120,7 +120,7 @@ route.post(
                 {
                     name : name,
                     user : [req.user._id],
-                    updates : [],
+                    updates : []
                     
                 }
             )
@@ -169,8 +169,12 @@ route.post(
             resolve();
         }).then(async function (){
 
-            const newUpdate = new Update(
-                req.body
+            const newUpdate = new Update({
+                ...req.body, 
+                timestamp : new Date().getTime()
+            }
+
+
             )
             let err = newUpdate.validateSync();
             if (err) {

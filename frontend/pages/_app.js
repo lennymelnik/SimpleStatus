@@ -51,7 +51,7 @@ function MyApp({ Component, pageProps }) {
       <div className='min-h-screen h-screen'>
 
         <Navbar token={token} logout={logout}/>
-        <div className='p-4 bg-gray-800 font-mono container2 h-full'>
+        <div className='p-4 bg-gray-800 font-mono container2 h-full w-full'>
 
 
           {alerts.map((alert)=><Alert {...alert} key={alert.id} removeAlert={removeAlert}/>)}
