@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react"
-import SystemItem from "../components/SystemsList/SystemItem/SystemItem"
 import SystemsList from "../components/SystemsList/SystemsList"
 import { getAllSystems } from "../components/Tools/Tools"
 
-export default function systemsPage(props){
+export default function SystemsPage(props){
     const [systems, setSystems] = useState([])
     async function fetchSystems(){
         const response = await getAllSystems(props.token, props.serverAddress)
