@@ -249,7 +249,7 @@ function Systems(props){
                     </tr>
                 </thead>
                 <tbody>
-                {systems.map((system)=><SystemItem {...props} {...system} />)}
+                {systems.map((system)=><SystemItem key={system._id} {...props} {...system} />)}
                 </tbody>
 
             </table>

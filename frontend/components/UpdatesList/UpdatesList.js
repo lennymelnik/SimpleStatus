@@ -14,7 +14,7 @@ export default function UpdatesList(props){
                     </tr>
                 </thead>
                 <tbody>
-                {props.updates.map((update)=><UpdatesItem update={update} {...props} />)}
+                {props.updates.map((update)=><UpdatesItem key={update._id} update={update} {...props} />)}
 
 
                

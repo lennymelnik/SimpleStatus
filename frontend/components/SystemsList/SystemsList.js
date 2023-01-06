@@ -25,7 +25,7 @@ export default function SystemsList(props){
                     </tr>
                 </thead>
                 <tbody>
-                {props.systems.map((system)=><SystemItem system={system} {...props} />)}
+                {props.systems.map((system)=><SystemItem key={system._id} system={system} {...props} />)}
 
 
                 <tr className='text-white text-xl hover:bg-sky-900'>
