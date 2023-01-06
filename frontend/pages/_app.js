@@ -9,7 +9,7 @@ import Navbar from '../components/Navbar/Navbar';
 function MyApp({ Component, pageProps }) {
     const { token, setToken } = useToken();
     const router = useRouter()
-    const [serverAddress, setServerAddress] = useState(false?'https://backend.threatrecord.io':'http://localhost:3010')
+    const [serverAddress, setServerAddress] = useState(false?'https://b.status.1-er.dev':'http://localhost:3010')
 
     
 
